@@ -1,5 +1,6 @@
 #' @import shiny
 app_ui <- function() {
+  library(magrittr)
   tagList(
     # Leave this function for adding external resources
     golem_add_external_resources(),
